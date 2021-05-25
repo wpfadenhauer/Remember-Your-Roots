@@ -7,12 +7,12 @@ My apologies for the confusing file names, hopefully this helps to explain what 
 Raw Data Files:
 1. PlantsCSVForR6.csv
   * This is all combinations of species - counties with respective variables. 
-3. countyoutlines2.shp (& associated files)
+2. countyoutlines2.shp (& associated files)
   * This is a shapefile with the outlines of all CONUS counties and county-specific variables.
-5. (rasters from OrgRasts folder)
+3. (rasters from OrgRasts folder)
   * These are all raw rasters downloaded from the various sources cited in the manuscript. 
-7. PlCoMerge.csv (created and subsequently used in CodeForPub.R file)
-8. SinglePlants.csv (created and subsequently used in CodeForPub.R file) 
+4. PlCoMerge.csv (created and subsequently used in CodeForPub.R file)
+5. SinglePlants.csv (created and subsequently used in CodeForPub.R file) 
   * This combined all the variables across all the counties each species was found within. So one row per species. 
 
 R Code Files:
