@@ -17,7 +17,8 @@ Raw Data Files:
 
 R Code Files:
 1. Redoplants.R
-  *  Calculates the values of the biogeographic traits within each species' native range
+  *  Compiles spatial ranges for each species
+  *  Calculates the values of the biogeographic traits within each species' spatial range
   *  Requires PlantsCSVForR6.csv, countyoutlines2.shp, all rasters from OrgRasts 
 2. CodeForPub.R
   * Calculates average values for all traits by invasion status (used in mansucript figure)
