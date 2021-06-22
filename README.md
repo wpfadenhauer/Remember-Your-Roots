@@ -1,8 +1,9 @@
 # Remember-Your-Roots
 
-The following files are the code I used to analyze biogeographic traits in the native ranges of invasive plant species. 
+The following files (are going to) include quite literally everything I used or made to analyze biogeographic traits in the native ranges of invasive plant species. 
 This README file is largley a duplicate of the MetadataOfRFilesforManuscript.R file. 
 My apologies for the confusing file names, hopefully this helps to explain what is in each one. 
+Please reach out if you have any questions about content or organization in this repo. 
 
 <br/><br/>
 __Raw Data Files:__
