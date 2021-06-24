@@ -1,0 +1,780 @@
+Identification_Information:  
+  Citation:
+    Citation_Information:
+      Originator: National Weather Service, Storm Prediction Center
+      Publication_Date: 200906
+      Title: United States Tornado Touchdown Points 1950-2008 
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Online_Linkage: <http://nationalatlas.gov/atlasftp.html>
+  Description: 
+    Abstract: 
+      This map layer shows tornado touchdown points in the United States, Puerto 
+      Rico, and the U.S. Virgin Islands, from 1950 to 2008.  Statistical data 
+      were obtained from the National Weather Service, Storm Prediction Center 
+      (SPC).  The SPC data originate from the Severe Thunderstorm Database and 
+      the National Oceanic and Atmospheric Administration (NOAA) Storm Data 
+      publication.  This is an updated version of the September 2005 map layer.
+    Purpose:
+      These data are intended for geographic display and analysis at the 
+      national level, and for large regional areas.  The data should be 
+      displayed and analyzed at scales appropriate for 1:2,000,000-scale data.  
+      No responsibility is assumed by the National Weather Service or the 
+      National Atlas of the United States in the use of these data. 
+    Supplemental_Information: 
+      This map layer represents an edited version of the information available, 
+      in ASCII format, from the SPC page at <http://www.spc.noaa.gov/wcm/>.  The 
+      SPC data set contains additional attributes, more information on tornadoes 
+      that affected multiple States, and additional tornadoes that were deleted 
+      from this map layer due to attribution problems.
+      
+      Historical tornado data are also available in the SPC's Historical Tornado
+      Data Archive <http://www.spc.noaa.gov/climo/historical.html>.
+
+      For more information on the Fujita Tornado Damage Scale, see 
+      <http://www.spc.noaa.gov/faq/tornado/f-scale.html> and 
+      <http://www.spc.noaa.gov/wcm/The%20Fujita%20Scale_files/frame.htm>.
+
+      For information on current tornado watches and advisories, see 
+      <http://www.spc.noaa.gov/products/wwa/>.
+
+      General information on tornadoes is available from the NOAA SPC's Online 
+      Tornado FAQ page at <http://www.spc.noaa.gov/faq/tornado/>, and from 
+      NOAA's tornado page at <http://www.noaawatch.gov/themes/severe.php>.
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19500101
+        Ending_Date: 20081231 
+    Currentness_Reference: Ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Annually
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -159.68
+      East_Bounding_Coordinate: -67.20
+      North_Bounding_Coordinate: 49.07
+      South_Bounding_Coordinate: 19.50
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Climatology/Meteorology/Atmosphere
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Tornadoes
+      Theme_Keyword: Historical tornados
+      Theme_Keyword: Tornado points
+      Theme_Keyword: Historical tornado points
+      Theme_Keyword: Violent storms
+      Theme_Keyword: Severe storms
+      Theme_Keyword: High winds
+      Theme_Keyword: Tornado touchdowns      
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+    Place: 
+      Place_Keyword_Thesaurus: 
+        U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of 
+        Special Sovereignty, and Their Principal Administrative Divisions 
+        (Federal Information Processing Standard (FIPS) 10-4): Washington, 
+        DC, National Institute of Standards and Technology. 
+      Place_Keyword: Alabama
+      Place_Keyword: Alaska
+      Place_Keyword: Arizona
+      Place_Keyword: Arkansas
+      Place_Keyword: California
+      Place_Keyword: Colorado
+      Place_Keyword: Connecticut
+      Place_Keyword: Delaware
+      Place_Keyword: District of Columbia
+      Place_Keyword: Florida
+      Place_Keyword: Georgia
+      Place_Keyword: Hawaii
+      Place_Keyword: Idaho
+      Place_Keyword: Illinois
+      Place_Keyword: Indiana
+      Place_Keyword: Iowa
+      Place_Keyword: Kansas
+      Place_Keyword: Kentucky
+      Place_Keyword: Louisiana
+      Place_Keyword: Maine
+      Place_Keyword: Maryland
+      Place_Keyword: Massachusetts
+      Place_Keyword: Michigan
+      Place_Keyword: Minnesota
+      Place_Keyword: Mississippi
+      Place_Keyword: Missouri
+      Place_Keyword: Montana
+      Place_Keyword: Nebraska
+      Place_Keyword: Nevada
+      Place_Keyword: New Hampshire
+      Place_Keyword: New Jersey
+      Place_Keyword: New Mexico
+      Place_Keyword: New York
+      Place_Keyword: North Carolina
+      Place_Keyword: North Dakota
+      Place_Keyword: Ohio
+      Place_Keyword: Oklahoma
+      Place_Keyword: Oregon
+      Place_Keyword: Pennsylvania
+      Place_Keyword: Rhode Island
+      Place_Keyword: South Carolina
+      Place_Keyword: South Dakota
+      Place_Keyword: Tennessee
+      Place_Keyword: Texas
+      Place_Keyword: Utah
+      Place_Keyword: Vermont
+      Place_Keyword: Virginia
+      Place_Keyword: Washington
+      Place_Keyword: West Virginia
+      Place_Keyword: Wisconsin
+      Place_Keyword: Wyoming
+      Place_Keyword: Puerto Rico
+      Place_Keyword: U.S. Virgin Islands
+
+  Access_Constraints: None
+  Use_Constraints:
+    None.  Acknowledgement of the National Atlas of the United States of America 
+    and (or) the National Oceanic and Atmospheric Administration, National 
+    Weather Service, Storm Prediction Center would be appreciated in products 
+    derived from these data. 
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NOAA Storm Prediction Center
+      Contact_Position: SPC Warning Coordination Meteorologist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 1313 Halley Circle
+        City: Norman
+        State_or_Province: OK
+        Postal_Code: 73069
+        Country: USA
+      Contact_Voice_Telephone: 405-579-0747
+      Contact_Electronic_Mail_Address: spc.feedback@noaa.gov
+      Hours_of_Service: Monday - Friday 8:00 AM - 5:00 PM Eastern Time
+Data_Quality_Information:
+  Logical_Consistency_Report:
+    No tests for logical consistency have been performed on this map layer.
+  Completeness_Report: 
+    This map layer includes the known tornado touchdown points in the United 
+    States, Puerto Rico, and the U.S. Virgin Islands, from 1950 through 2008.  
+    Tornadoes were deleted if their touchdown points fell outside the United 
+    States or in large water bodies.  Records missing latitude and longitude 
+    values were also deleted.
+  Lineage:
+    Source_Information: 
+      Source_Citation: 
+        Citation_Information:
+          Originator: National Weather Service, Storm Prediction Center
+          Publication_Date: 200509
+          Title: United States Tornado Touchdown Points 1950-2004
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: National Atlas of the United States
+          Online_Linkage: <http://nationalatlas.gov/atlasftp.html?openChapters=chpclim#chpclim>
+      Type_of_Source_Media: Online 
+      Source_Time_Period_of_Content: 
+        Time_Period_Information: 
+          Range_of_Dates/Times: 
+            Beginning_Date: 1950 
+            Ending_Date: 2004 
+        Source_Currentness_Reference: Ground condition 
+      Source_Citation_Abbreviation: ATLAS-TOR04 
+      Source_Contribution: Spatial and attribute information. 
+
+    Source_Information: 
+      Source_Citation: 
+        Citation_Information: 
+          Originator: 
+            National Oceanic and Atmospheric Administration, National 
+            Weather Service, Storm Prediction Center
+          Publication_Date: 200903
+          Title: Tornado Statistics 2005-2008
+          Publication_Information: 
+            Publication_Place: Norman, OK 
+            Publisher: NOAA Storm Prediction Center 
+          Online_Linkage: <http://www.spc.noaa.gov/wcm/> 
+      Type_of_Source_Media: Online 
+      Source_Time_Period_of_Content: 
+        Time_Period_Information: 
+          Range_of_Dates/Times: 
+            Beginning_Date: 2005 
+            Ending_Date: 2008 
+        Source_Currentness_Reference: Ground condition 
+      Source_Citation_Abbreviation: ONETOR0508 
+      Source_Contribution: Spatial and attribute information. 
+
+    Source_Information: 
+      Source_Citation: 
+        Citation_Information: 
+          Originator: 
+            National Oceanic and Atmospheric Administration, National 
+            Weather Service, Storm Prediction Center
+          Publication_Date: 200505
+          Title: Tornado Statistics 1950-2004
+          Publication_Information: 
+            Publication_Place: Norman, OK 
+            Publisher: NOAA Storm Prediction Center 
+          Online_Linkage: <http://www.spc.noaa.gov/wcm/> 
+      Type_of_Source_Media: Online 
+      Source_Time_Period_of_Content: 
+        Time_Period_Information: 
+          Range_of_Dates/Times: 
+            Beginning_Date: 1950 
+            Ending_Date: 2004 
+        Source_Currentness_Reference: Ground condition 
+      Source_Citation_Abbreviation: ONETOR5004 
+      Source_Contribution: Spatial and attribute information. 
+    
+    Process_Step:
+      Process_Description:
+        ASCII text files, in Comma Seperated Values (CSV) format, of tornado 
+        statistics for the years 2005 to 2008 were downloaded from the NOAA -    
+        National Weather Service - Storm Prediction Center and imported into 
+        Excel and exported out in dBase (dbf) format.  The dBase files were 
+        converted to shapefiles, in ArcCatalog, using the Longitude and 
+        Latitude data to create x and y coordinate points.    The shapefiles 
+        were loaded into ArcMap and the attribute table was restructured to 
+        meet National Atlas specifications using the Table Restucture tool     
+        in XTools 5.2.0 Table Operations.  The restructured 2005 – 2008 
+        tornado shapefile was merged with ATLAS-TOR04. Continuation records 
+        without latitude and longitude were deleted, as were records where 
+        latitude and longitude were 0.0.  Records were deleted for ten 
+        tornadoes with touchdown points that fell in Canada, Mexico, the 
+        ocean, or Lake Michigan.  For tornadoes that affected several States, 
+        the records with State information were deleted, but the records with 
+        full-path information were retained.  Fields were converted from 
+        decimal values to integers where appropriate, and several typographic 
+        errors were corrected.  Unnecessary attribute fields were deleted.  
+        The numeric State FIPS code was recalculated as a string and the 
+        values for Puerto Rico and the U.S. Virgin Islands were corrected.  
+        A final shapefile was created.
+      Source_Used_Citation_Abbreviation: ONETOR0508
+      Source_Used_Citation_Abbreviation: ATLAS-TOR04 
+      Process_Date: 200906
+
+    Process_Step:
+      Process_Description: 
+        The ASCII text file of tornado statistics for the years 1950 to 2004 
+        was downloaded from the Storm Prediction Center and imported into 
+        Excel.  Header text was added, then the file was loaded into ArcMap 
+        and saved as a shapefile.  Continuation records without latitude and 
+        longitude were deleted, as were records where latitude and longitude 
+        were 0.0.  Records were deleted for ten tornadoes with touchdown 
+        points that fell in Canada, Mexico, the ocean, or Lake Michigan.  For 
+        tornadoes that affected several States, the records with State 
+        information were deleted, but the records with full-path information 
+        were retained.  Fields were converted from decimal values to integers 
+        where appropriate, and several typographic errors were corrected.  
+        Unnecessary attribute fields were deleted.  The numeric State FIPS 
+        code was recalculated as a string and the values for Puerto Rico and 
+        the U.S. Virgin Islands were corrected.  A final shapefile was 
+        created.
+      Source_Used_Citation_Abbreviation: ONETOR5004 
+      Process_Date: 200508
+      Source_Produced_Citation_Abbreviation: ATLAS-TOR04
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Point
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 52195
+
+Spatial_Reference_Information 
+  Horizontal_Coordinate_System_Definition: 
+    Geographic: 
+      Latitude_Resolution: 0.000278 
+      Longitude_Resolution: 0.000278 
+      Geographic_Coordinate_Units: Decimal degrees 
+    Geodetic_Model: 
+      Horizontal_Datum_Name: North American Datum of 1983 
+      Ellipsoid_Name: GRS1980 
+      Semi-major_Axis: 6378137 
+      Denominator_of_Flattening_Ratio: 298.257222 
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Tornado touchdown point 
+      Entity_Type_Definition: 
+        The point where a violently rotating column of air, in contact with both 
+        the ground and with the base of a powerful thunderstorm, first made 
+        contact with the ground.
+      Entity_Type_Definition_Source: National Atlas of the United States
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: The representation of the entity in the data.
+      Attribute_Definition_Source: National Atlas of the United States 
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Point
+          Enumerated_Domain_Value_Definition: 
+            1-dimensional element
+          Enumerated_Domain_Value_Definition_Source: ESRI GIS software
+    Attribute:
+      Attribute_Label: Tornadx020
+      Attribute_Definition: Internal sequence number.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 52195
+    Attribute:
+      Attribute_Label: Year
+      Attribute_Definition: The year in which the tornado occurred.  
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1950 
+          Range_Domain_Maximum: 2008
+    Attribute:
+      Attribute_Label: Num 
+      Attribute_Definition: 
+        The number of the tornado in the State, for a given year.  
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction 
+        Center 
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1 
+          Range_Domain_Maximum: 232
+    Attribute:
+      Attribute_Label: State 
+      Attribute_Definition: 
+        The two-digit code for the State in which the tornado touched down.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: 
+            Codes for the Identification of the States, the District of 
+            Columbia and the Outlying Areas of the United States, and 
+            Associated Areas; (Federal Information Processing Standard
+            (FIPS) 5-2): Washington, DC, National Institute of Standards 
+            and Technology.
+          Codeset_Source: U.S. Department of Commerce 
+    Attribute:
+      Attribute_Label: Month
+      Attribute_Definition: The month in which the tornado occurred.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 12
+    Attribute:
+      Attribute_Label: Day 
+      Attribute_Definition: The day of the month on which the tornado occurred.       
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 31
+    Attribute:
+      Attribute_Label: Date 
+      Attribute_Definition: 
+        The date on which the tornado occurred, in the format month/day/year.     
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1/3/1950
+          Range_Domain_Maximum: 12/27/2008
+    Attribute:
+      Attribute_Label: Tor_no
+      Attribute_Definition: 
+        A count of tornadoes during the year.  If a tornado with evidence of 
+        damage lifts off and touches down again within two miles, it is 
+        considered the same tornado.
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction 
+        Center
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1 
+          Range_Domain_Maximum: 1817
+    Attribute:
+      Attribute_Label: No_sts 
+      Attribute_Definition: 
+        The number of States traversed by the tornado.  Note that this is not a 
+        count of tornadoes, it is a count of the records, in the source data 
+        base, associated with one tornado.
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction Center       
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 3
+    Attribute:
+      Attribute_Label: State_tor
+      Attribute_Definition:
+        An indication of whether the record describes a tornado that affected 
+        several States or only a single State.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: 
+            The tornado affected more than one State, and this record describes 
+            the tornado’s entire path. 
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration, Storm Prediction 
+            Center
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: 
+            The tornado affected only one State.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+    Attribute:
+      Attribute_Label: Segno 
+      Attribute_Definition: A flag indicating the nature of the record.
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction Center       
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: 
+            The record is for a tornado’s entire path.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration, Storm 
+            Prediction Center
+    Attribute:
+      Attribute_Label: STLAT 
+      Attribute_Definition: 
+        The latitude of the point where the tornado touched down.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 18.20
+          Range_Domain_Maximum: 61.02
+    Attribute:
+      Attribute_Label: STLON 
+      Attribute_Definition: 
+        The West longitude of the point where the tornado touched down.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 64.90
+          Range_Domain_Maximum: 163.53
+    Attribute:
+      Attribute_Label: SPLAT 
+      Attribute_Definition: 
+        The latitude of the point where the tornado lifted off.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado lift-off point could not be differentiated from the 
+            touchdown point, or the tornado lift-off point is unknown.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration, Storm Prediction 
+            Center
+        Range_Domain: 
+          Range_Domain_Minimum: 18.40
+          Range_Domain_Maximum: 61.02
+    Attribute:
+      Attribute_Label: SPLON 
+      Attribute_Definition: 
+        The West longitude of the point where the tornado lifted off.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado lift-off point could not be differentiated from the 
+            touchdown point, or the tornado lift-off point is unknown.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration, Storm Prediction 
+            Center
+        Range_Domain: 
+          Range_Domain_Minimum: 64.90
+          Range_Domain_Maximum: 163.53
+    Attribute:
+      Attribute_Label: LGTH 
+      Attribute_Definition: 
+        The length of the tornado track in tenths of a statute mile (146 = 14.6 
+        miles).   Tracks may be nonlinear, so the length may not be the same as 
+        the great-circle distance from the touchdown point to the lift-off
+        point. 
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction Center       
+      Attribute_Domain_Values: 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: 
+            The tornado touched down and lifted off at the same point, or the 
+            length of the tornado track is unknown.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration, Storm Prediction 
+            Center
+        Range_Domain: 
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 4000
+    Attribute:
+      Attribute_Label: Width  
+      Attribute_Definition: 
+        For tornadoes prior to 1994, the mean tornado path width in tens of feet 
+        (528.00 = 5280.0 feet or 1 mile.)  This is the mean width along the 
+        entire track.  The minimum width is assumed to be 30 feet.  A width was 
+        computed for each State that a tornado affected, and the mean was 
+        calculated from those values.
+
+        For tornadoes from 1994 and later, the maximum width in tens of feet.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0.00
+          Enumerated_Domain_Value_Definition: 
+            The width of the tornado track is unknown.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Range_Domain: 
+          Range_Domain_Minimum: 0.01 
+          Range_Domain_Maximum: 1162.00
+    Attribute:
+      Attribute_Label: Fatal 
+      Attribute_Definition: 
+        The number of fatalities caused by the tornado.  Prior to 1994, the 
+        value 0 may indicate that the number of fatalities is unknown.
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction Center
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 116
+    Attribute:
+      Attribute_Label: INJ 
+      Attribute_Definition: 
+        The number of injuries caused by the tornado.  Prior to 1994, the value 
+        0 may indicate that the number of injuries is unknown.           
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction Center
+      Attribute_Domain_Values: 
+        Range_Domain: 
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1740
+    Attribute:
+      Attribute_Label: Damage 
+      Attribute_Definition: 
+        For 1995 and earlier, property damage caused by the tornado, in dollars 
+        as indicated by a code value.  For 1996 and later, property damage 
+        caused by the tornado, in millions of dollars.          
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values: 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0.00
+          Enumerated_Domain_Value_Definition: 
+            The amount of tornado damage is unknown.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was less than $50.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $50 and $499
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $500 and $4,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $5,000 and $49,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $50,000 and $499,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $500,000 and $4,999,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $5,000,000 and $49,999,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was between $50,000,000 and $4999,999,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9.00
+          Enumerated_Domain_Value_Definition: 
+            The tornado damage was $500,000,000 or more.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+        Range_Domain: 
+          Range_Domain_Minimum: 0.00  
+          Range_Domain_Maximum: 1000.00
+    Attribute:
+      Attribute_Label: F_Scale
+      Attribute_Definition: 
+        The damage classification according to the Fujita Tornado Damage Scale.  
+        The categories are based upon the estimated maximum winds occurring 
+        within the funnel.  Wind estimates associated with damage are crude at 
+        best.  Only one classification is given for each tornado. See 
+        <http://www.spc.noaa.gov/faq/tornado/f-scale.html> and 
+        <http://www.ncdc.noaa.gov/oa/satellite/satelliteseye/educational/fujita.html>
+        for detailed information on the Fujita Tornado Scale.
+      Attribute_Definition_Source: 
+        National Oceanic and Atmospheric Administration, Storm Prediction Center
+      Attribute_Domain_Values: 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: -9
+          Enumerated_Domain_Value_Definition: 
+            No F-Scale damage classification estimate is available.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration, Storm Prediction 
+            Center
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: 
+            Estimated maximum wind speeds of 40-72 mph.  Gale Tornado.  Light 
+            damage: Some damage to chimneys; breaks twigs and branches off 
+            trees; pushes over shallow-rooted trees; damages signboards; some 
+            windows broken.  Winds are below hurricane force. 
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: 
+            Estimated maximum wind speeds of 73-112 mph.  Moderate Tornado.  
+            Moderate damage: Peels surfaces off roofs; mobile homes pushed off 
+            foundations or overturned; outbuildings demolished; moving autos 
+            pushed off the roads; trees snapped or broken.  (Hurricane wind 
+            speed begins at 73 mph.)
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition:
+            Estimated maximum wind speeds of 113-157 mph.  Significant Tornado.  
+            Considerable damage: Roofs torn off frame houses; mobile homes 
+            demolished; frame houses with weak foundations lifted and moved; 
+            boxcars pushed over; large trees snapped or uprooted; light-object 
+            missiles generated.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition:
+            Estimated maximum wind speeds of 158-206 mph.  Severe Tornado.  
+            Severe damage: Roofs and some walls torn off well-constructed 
+            houses; trains overturned; most trees in forests uprooted; heavy 
+            cars lifted off the ground and thrown; weak pavement blown off 
+            roads.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition:
+            Estimated maximum wind speeds of 207-260 mph.  Devastating Tornado.  
+            Devastating damage: Well constructed homes leveled; structures with 
+            weak foundations blown off some distance; cars thrown and 
+            disintegrated; large missiles generated; trees in forest uprooted 
+            and carried some distance away.
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition:
+            Estimated maximum wind speeds of 261-318 mph.  Incredible Tornado.  
+            Incredible damage: Strong frame houses lifted off foundations and 
+            carried considerable distance to disintegrate; automobile-sized 
+            missiles fly through the air in excess of 300 ft (100 m); trees 
+            debarked; incredible phenomena will occur. 
+          Enumerated_Domain_Value_Definition_Source: 
+            National Oceanic and Atmospheric Administration
+
+Distribution_Information:
+  Distributor:
+    Contact_Information: 
+      Contact_Organization_Primary: 
+        Contact_Organization: 
+          Earth Science Information Center, U.S. Geological Survey 
+      Contact_Address: 
+        Address_Type: Mailing address 
+        Address: 507 National Center 
+        City: Reston 
+        State_or_Province: VA 
+        Postal_Code: 20192 
+      Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747) 
+      Contact_Voice_Telephone: 703-648-5920
+      Contact_Instructions: 
+        In addition to the address above there are other ESIC offices 
+        throughout the country.  A full list of these offices is at
+        <http://geography.usgs.gov/esic/esic_index.html>.
+    
+  Distribution_Liability: 
+    Although these data have been processed successfully on a computer system 
+    at the U.S. Geological Survey, no warranty expressed or implied is made 
+    by the U.S. Geological Survey or the National Oceanic and Atmospheric 
+    Administration regarding the utility of the data on any other system, nor 
+    shall the act of distribution constitute any such warranty.  No 
+    responsibility is assumed by the U.S. Geological Survey or the National 
+    Oceanic and Atmospheric Administration in the use of these data. 
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI Shapefile
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: <http://nationalatlas.gov/atlasftp.html>
+    Digital_Form: 
+      Digital_Transfer_Information: 
+        Format_Name: SDTS 
+      Digital_Transfer_Option: 
+        Online_Option: 
+          Computer_Contact_Information: 
+            Network_Address: 
+              Network_Resource_Name: <http://nationalatlas.gov/atlasftp.html>
+    Fees:
+      There is no charge for the map layer.
+
+Metadata_Reference_Information:
+  Metadata_Date: 20090608
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Terry Higgins
+        Contact_Organization: National Atlas of the United States 
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 1400 Independence Rd.
+        Address: MS 700
+        City: Rolla
+        State_or_Province: MO
+        Postal_Code: 65401
+      Contact_Voice_Telephone: 573-308-3592
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name: 
+    FGDC Content Standards for Digital Geospatial Metadata 
+  Metadata_Standard_Version: FGDC-STD-001-1998 
+  Metadata_Security_Information: 
+    Metadata_Security_Classification_System: None 
+    Metadata_Security_Classification: Unclassified 
+    Metadata_Security_Handling_Description: None 
