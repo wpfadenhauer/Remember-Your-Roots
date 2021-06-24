@@ -10,8 +10,8 @@ __Raw Data Files:__
 1. PlantsCSVForR6.csv
     * This is a list of all species that are native to only the Lower 48 (from USDA PLANTS, updated June 2021) and each L48 county each species is native to.
     * In other words, each row is a unique species - county combination.  
-2. countyoutlines.shp (& associated files)
-    * This is a shapefile with the outlines of all CONUS counties.
+2. cb_2018_us_county_500k.shp (& associated files)
+    * This is a shapefile with the boundaries of all CONUS counties, sourced from the US Census Bureau.
     * Note that Louisiana has an outline here but that USDA PLANTS does not contain county-level data for Louisiana, so it is excluded from our analyses. 
 3. Everything from OrgRasts folder
     * These folders include all raw rasters downloaded from the various sources cited in the manuscript.
