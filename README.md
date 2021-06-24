@@ -28,7 +28,8 @@ __R Code Files:__
 1. Redoplants.R
     *  Compiles spatial ranges for each species
     *  Calculates the values of the biogeographic traits within each species' spatial range
-    *  Requires PlantsCSVForR6.csv, countyoutlines2.shp, all rasters from OrgRasts 
+    *  Requires PlantsCSVForR6.csv, cb_2018_us_county_500k.shp, and everything in OrgRasts folder
+    *  Creates SinglePlants.csv 
 2. CodeForPub.R
     * Calculates average values for all traits by invasion status (used in mansucript figure)
     * Runs Kruskal-Wallis and Wilcoxon test for all variables
