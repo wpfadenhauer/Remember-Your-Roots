@@ -31,7 +31,7 @@ __R Code Files:__
     *  Requires PlantsCSVForR6.csv, cb_2018_us_county_500k.shp, and everything in OrgRasts folder
     *  Creates SinglePlants.csv 
 2. CodeForPub.R
-    * Calculates average values for all traits by invasion status (used in mansucript figure)
+    * Requires SinglePlants.csv
     * Runs Kruskal-Wallis and Wilcoxon test for all variables
 3. 200GAMS.R
     * Runs first set of logistic regressions (GAMS)
