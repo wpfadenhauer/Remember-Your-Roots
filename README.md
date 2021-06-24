@@ -13,12 +13,15 @@ __Raw Data Files:__
 2. countyoutlines.shp (& associated files)
     * This is a shapefile with the outlines of all CONUS counties.
     * Note that Louisiana has an outline here but that USDA PLANTS does not contain county-level data for Louisiana, so it is excluded from our analyses. 
-3. (Rasters from OrgRasts folder)
-    * These are all raw rasters downloaded from the various sources cited in the manuscript. 
-4. PlCoMerge.csv (created and subsequently used in CodeForPub.R file)
-5. SinglePlants.csv (created and subsequently used in CodeForPub.R file) 
-    * This compiled a single value for all the variables across all the counties each species was found within. 
-    * So one row per species, with all the biogeographic variables associated with that species also included in the same row.   
+3. Everything from OrgRasts folder
+    * These folders include all raw rasters downloaded from the various sources cited in the manuscript.
+    * For some rasters, I ran zonal statistics in QGIS instead of R. For these variables, there is a histogram csv in the same folder as the parent raster. 
+    * This folder also includes a CSV with growth habits from the USDA PLANTS database that was appened to the SinglePlants.csv (see immediately below).
+5. SinglePlants.csv (created in Redoplants.R file and subsequently used in CodeForPub.R file) 
+    * This file has a single value for all the variables for each plant species. 
+    * These values were calcualted from the native area inhabitated by each species in the lower 48 United States.  
+    * So one row per species, with all the biogeographic variables associated with that species also included in the same row.
+    * It also includes the nativity status and growth habit for each plant species.    
 
 <br/><br/>
 __R Code Files:__
