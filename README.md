@@ -30,9 +30,10 @@ __R Code Files:__
     *  Calculates the values of the biogeographic traits within each species' spatial range
     *  Requires PlantsCSVForR6.csv, cb_2018_us_county_500k.shp, and everything in OrgRasts folder
     *  Creates SinglePlants.csv 
-2. CodeForPub.R
+2. CodeForPub2.R
     * Requires SinglePlants.csv
-    * Runs Kruskal-Wallis and Wilcoxon test for all variables
+    * Calculate average value for each status group for each variable
+    * Then test for sig. diffs. between those averages by running Kruskal-Wallis and Wilcoxon test for all variables
 3. 200GAMS.R
     * Runs first set of logistic regressions (GAMS)
 4. Lasso.R
