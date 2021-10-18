@@ -6,7 +6,7 @@ Please reach out if you have any questions about content or organization in this
 
 <br/><br/>
 __Raw Data Files:__
-1. SinglePlantsALLVARS.csv 
+1. SinglePlantsALLVARS2.csv 
     * This file has a single value for all the variables for each plant species. 
     * These values were calcualted from the native area inhabitated by each species in the lower 48 United States.  
     * So one row per species, with all the biogeographic variables associated with that species also included in the same row.
