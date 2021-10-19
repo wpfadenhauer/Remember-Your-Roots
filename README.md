@@ -30,4 +30,7 @@ __R Code Files:__
 7. UpdatedEcoRegions_andGH_Groups.R
     * Looks at patterns in invasiveness across the individual ecoregions and growth habits
     * This information is used in Figure 4 in the manuscript. 
+8. NewSamplingRedo.R
+    * This has all of the same models included in the above files, but using a different sampling method (taking 131 from all groups, then 86 of the first sample for training and the remaining 45 for testing).  
+
   
