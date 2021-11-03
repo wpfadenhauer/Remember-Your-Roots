@@ -17,20 +17,8 @@ __R Code Files:__
 1. CodeForPub2.R
     * Calculate average value for each invasion status group for each variable
     * Then test for sig. diffs. between those averages by running Kruskal-Wallis and Wilcoxon test for all variables
-2. 500GAMS.R
-    * Runs first set of logistic regressions (GAMS), aka models 2 & 6. 
-3. Lasso500.R
-    * Runs second set of logistic regressions (GLMs w/ LASSO var. selection), aka models 3 & 8. 
-4. Multinom.R
-    * Runs third and final set of logistic regressions (multinomial - one is a GAM, one is a GLM), aka models 10 & 11. 
-5. 500SVMs.R
-    * Runs all SVMs, aka models 4, 7, & 12. 
-6. 500RandomForests.R
-    * Runs all Random Forests, aka models 1, 5, & 9. 
-7. UpdatedEcoRegions_andGH_Groups.R
+2. NewSamplingRedo.R
+    * This contains all of the models run for the manuscript (see Table 2 for list of models). They are in the order: 2, 6, 11, 10, 3, 8, 4, 7, 12, 9, 1, 5.
+3. UpdatedEcoRegions_andGH_Groups.R
     * Looks at patterns in invasiveness across the individual ecoregions and growth habits
     * This information is used in Figure 4 in the manuscript. 
-8. NewSamplingRedo.R
-    * This has all of the same models included in the above files, but using a different sampling method (taking 131 from all groups, then 86 of the first sample for training and the remaining 45 for testing).  
-
-  
