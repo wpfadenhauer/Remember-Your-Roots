@@ -1,0 +1,16 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Pfadenhauer"
+  given-names: "William"
+- family-names: "Nelson"
+  given-names: "Michael"
+- family-names: "Laginhas"
+  given-names: "Brittany"
+- family-names: "Bradley"
+  given-names: "Bethany"
+title: "Remember-Your-Roots"
+version: 1.0.0
+doi: 10.5281/zenodo.5703657
+date-released: 2021-11-15
+url: "https://github.com/wpfadenhauer/Remember-Your-Roots"
