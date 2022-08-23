@@ -7,7 +7,7 @@ require(stringi)
 require(ggpubr)
 
 
-SpAvgs2 <-fread("E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/SinglePlants.csv")
+SpAvgs2 <-fread("E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/SinglePlantsALLVARS.csv")
 
 
 #Values for Bar Charts in Publication----
