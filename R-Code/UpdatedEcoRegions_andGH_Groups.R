@@ -7,7 +7,7 @@ require(dplyr)
 
 #Separting by Ecoregion ----
 
-Ecos <- fread("E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/SinglePlantsALLVARS.csv")
+Ecos <- fread("E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/SinglePlantsALLVARS2.csv")
 
 Ecos4 <- Ecos[,-c(2:22, 114:118 )]
 
