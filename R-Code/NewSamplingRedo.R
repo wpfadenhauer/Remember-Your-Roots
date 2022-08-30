@@ -1330,6 +1330,10 @@ sens_rf2 <- list()
 OvAcc_rf2 <-list()
 kapp_rf2 <-list()
 to_rf2 <-list() 
+names <- list()
+
+#This line just for Appendix 2
+check_rfX <- list()
 
 
 for (i in rfss2) {
@@ -1344,8 +1348,13 @@ for (i in rfss2) {
                             size = c(86), replace=FALSE)
   
   check_rf2 <- anti_join(trainingrf1, trainingrf2, by=c("Accepted Symbol"))
+  
+  #This line just for Appendix 2
+  check_rfX[[i]]<- check_rf2[,c(1)]
+  
   check_rf2 <- check_rf2[,-c(1, 2, 5, 9, 10, 11, 16, 19, 20, 22, 24, 27, 34, 35, 45, 48, 50,
                              53, 55, 59, 60, 61, 62, 74, 75, 78, 84, 88, 89, 90, 92, 94, 96)]
+  
   for_rf2 <- trainingrf2[,-c(1, 2, 5, 9, 10, 11, 16, 19, 20, 22, 24, 27, 34, 35, 45, 48, 50,
                              53, 55, 59, 60, 61, 62, 74, 75, 78, 84, 88, 89, 90, 92, 94, 96)]
   
@@ -1369,6 +1378,11 @@ for (i in rfss2) {
   
   rf_cm2[[i]] <- confusionMatrix(data = as.factor(predrf2[[i]]), as.factor(check_rf2$Status))  
   
+  #This line just for Appendix 2
+  names[[i]] <- data.frame(prediction = as.factor(predrf2[[i]]),
+                           actual = as.factor(check_rf2$Status),
+                           name = as.factor(check_rfX[[i]]$`Accepted Symbol`)) 
+  
   spec_rf2[[i]] <- rf_cm2[[i]]$byClass["Specificity"]
   sens_rf2[[i]] <- rf_cm2[[i]]$byClass["Sensitivity"]
   OvAcc_rf2[[i]] <-rf_cm2[[i]]$overall["Accuracy"]
@@ -1379,6 +1393,33 @@ for (i in rfss2) {
   
 }  
 
+
+#This part just for high risk species (Appendix 2)
+df1 <- as.data.table(names[[1]][which(export1$prediction=="invasive" & export1$actual=="established"),])
+
+rfss222 <- c(2:500)
+for (i in rfss222) {
+
+export1 <- as.data.table(names[[i]])
+#df1<- as.data.frame(export1[which(export1$prediction=="invasive" & export1$actual=="established"),])
+df1 <- rbind(df1, export1[which(export1$prediction=="invasive" & export1$actual=="established"),])
+
+}
+      
+length(unique(df1$name)) 
+table(df1$name)
+freq<- df1%>%
+  group_by(name) %>%
+  summarise(n=n())
+hist(freq$n)
+
+namesandsymbols <- singleplants[,c(1,2)]
+
+wrong <- left_join(freq, namesandsymbols, by = c("name"="Accepted Symbol"))
+
+fwrite(wrong, "E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/missclassified_Appendix2.csv")
+      
+#Okay back to your regularly scheduled programming:
 
 results_rf2 <- data.frame(term=c("Air_Results","ports_Results", "soc_Results", "awc_Results", 
                                  "PropFP", "Ag", "Urb","SpeciesArea", "Range_Size", "Precip",
