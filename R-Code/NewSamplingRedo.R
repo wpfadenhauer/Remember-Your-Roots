@@ -1395,29 +1395,51 @@ for (i in rfss2) {
 
 
 #This part just for high risk species (Appendix 2)
+#Wrong Classifications
+export1 <- as.data.table(names[[1]])
 df1 <- as.data.table(names[[1]][which(export1$prediction=="invasive" & export1$actual=="established"),])
 
 rfss222 <- c(2:500)
 for (i in rfss222) {
-
 export1 <- as.data.table(names[[i]])
-#df1<- as.data.frame(export1[which(export1$prediction=="invasive" & export1$actual=="established"),])
 df1 <- rbind(df1, export1[which(export1$prediction=="invasive" & export1$actual=="established"),])
-
 }
       
+
 length(unique(df1$name)) 
 table(df1$name)
 freq<- df1%>%
   group_by(name) %>%
   summarise(n=n())
-hist(freq$n)
+
+freq <- freq %>%
+  rename(n_wrong = n)
+
+#Right Classifications
+export2 <- as.data.table(names[[1]])
+df2 <- as.data.table(names[[1]][which(export2$prediction=="established" & export2$actual=="established"),])
+
+for (i in rfss222) {
+  export2 <- as.data.table(names[[i]])
+  df2 <- rbind(df2, export2[which(export2$prediction=="established" & export2$actual=="established"),])
+}
+
+length(unique(df2$name)) 
+table(df2$name)
+freq2<- df2%>%
+  group_by(name) %>%
+  summarise(n=n())
+
+freq2 <- freq2 %>%
+  rename(n_right = n)
+
+joined <- full_join(freq, freq2)
+
 
 namesandsymbols <- singleplants[,c(1,2)]
+appendix2 <- left_join(joined, namesandsymbols, by = c("name"="Accepted Symbol"))
 
-wrong <- left_join(freq, namesandsymbols, by = c("name"="Accepted Symbol"))
-
-fwrite(wrong, "E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/missclassified_Appendix2.csv")
+fwrite(appendix2, "E:/UMass/CH3_NativeRangeAnalysis/CH3_NativeRangeAnalysis/missclassified_Appendix2.csv")
       
 #Okay back to your regularly scheduled programming:
 
