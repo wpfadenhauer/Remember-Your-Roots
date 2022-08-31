@@ -1,7 +1,7 @@
 # Remember-Your-Roots
 
 The following files include the raw data and R code used in the "Remember Your Roots" manuscript. 
-My apologies for the confusing file names, hopefully this helps to explain what is in each one. The model numbers referenced below correspond to SUPPLEMENTAL TABLE 1 from the manuscript. 
+My apologies for the confusing file names, hopefully this helps to explain what is in each one. The model numbers referenced below correspond to Appendix 1: Supplemental Table 1 from the manuscript. 
 Please reach out if you have any questions about content or organization in this repo. 
 
 <br/><br/>
