@@ -18,8 +18,8 @@ __R Code Files:__
     * Calculate average value for each invasion status group (e.g. "native", "established", and "invasive") for each variable.
     * Then test for significant differences between those averages by running Kruskal-Wallis and Wilcoxon test for all variables.
 2. NewSamplingRedo.R
-    * This contains all of the models run for the manuscript (see SUPPLEMENTAL TABLE 1 for list of models). They are in the order: 2, 6, 11, 10, 3, 8, 4, 7, 12, 9, 1, 5.
-    * See Main Text Methods for descriptions of Random Forest models (#1, 5, and 9) and see Supplemental Methods for descriptions of logistic models and Support Vector Machines (all other models). 
+    * This contains all of the models run for the manuscript (see Appendix 1: Supplemental Table 1 for list of models). They are in the order: 2, 6, 11, 10, 3, 8, 4, 7, 12, 9, 1, 5.
+    * See Main Text Methods for descriptions of Random Forest models (#1, 5, and 9) and see Appendix 1: Supplemental Methods for descriptions of logistic models and Support Vector Machines (all other models). 
 3. UpdatedEcoRegions_andGH_Groups.R
     * Looks at patterns in invasiveness across the individual ecoregions and growth habits. 
     * This information is used in Figure 4 in the manuscript. 
